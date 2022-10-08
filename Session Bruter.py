@@ -176,7 +176,7 @@ def main():
         with open(proxies,'r',encoding='utf-8') as pr:
             prxs = pr.read().splitlines()
     except Exception as err:
-        print(exl+' Error while openning the file > '+str(y(err)))
+        print(exl+' Error while openning the file > '+y(str(err)))
 
     
     proxies = []
